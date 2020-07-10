@@ -1,7 +1,6 @@
 //Import the mongoose module
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb://admin:admin1234@ds145356.mlab.com:45356/socialpresence';
-// var mongoDB = 'mongodb://admin:admin1234@ds259596.mlab.com:59596/sptest';
+var mongoDB = 'mongodb://localhost:27017/conformity-sp';
 
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
